@@ -663,3 +663,11 @@ get_account_data(): Raw-data аккаунта.
 get_asset(data, ticker): Срез по конкретному тикеру (free/borrowed/interest/net).
 
 #SENSE #MEMORY
+
+## 2026-04-28 15:46:31
+📰 **ГАЗЕТА БУРКИНА-ФАСО 2.0** [15:46:27]
+
+ELEMENT: MARGIN_LOOK (CRITICAL FIX)
+Исправлена ошибка формирования URL в get_account_data. Добавлен пропущенный эндпоинт /sapi/v1/margin/account и корректная передача параметров.
+
+#SENSE #MEMORY
